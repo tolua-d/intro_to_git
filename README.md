@@ -16,3 +16,4 @@ staging area
 - git commit -m "message" to move files from the staging area to the repository.
 
 - note: always add file to staging area before committing it to the repo!!
+- git add *.filetype adds all files with the extension to the staging area while calling on git commit would move all files in the staging area to the repo.
