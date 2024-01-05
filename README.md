@@ -17,3 +17,4 @@ staging area
 
 - note: always add file to staging area before committing it to the repo!!
 - git add *.filetype adds all files with the extension to the staging area while calling on git commit would move all files in the staging area to the repo.
+- git add -A adds all files in the working directory including the hidden files.
