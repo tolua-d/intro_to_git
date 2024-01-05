@@ -13,3 +13,4 @@ staging area
 
 # git repository
 - where all snapshots are stored.
+- git commit -m "message" to move files from the staging area to the repository.
