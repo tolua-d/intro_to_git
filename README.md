@@ -19,3 +19,5 @@ staging area
 - git add *.filetype adds all files with the extension to the staging area while calling on git commit would move all files in the staging area to the repo.
 - git add -A adds all files in the working directory including the hidden files.
 - git reset HEAD <file>... is used to unstage files and so is git restore --staged <file>...
+- to ignore files in git, create a file using the touch command and name the file as .gitignore. save every file you want git to ignore in this.
+- mv command is used to rename files in the terminal. mn current_filename new_filename
