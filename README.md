@@ -21,3 +21,11 @@ staging area
 - git reset HEAD <file>... is used to unstage files and so is git restore --staged <file>...
 - to ignore files in git, create a file using the touch command and name the file as .gitignore. save every file you want git to ignore in this.
 - mv command is used to rename files in the terminal. mn current_filename new_filename
+- git branch is used to list the branches in the repo.
+- to create a new branch and switch into it, use git checkout -b <branch_name>. the checkout command switches to this new branch.
+- git checkout <branch_name> switches to this branch. commits in each branch are different from one another. you won't see a commit in one branch in the other basically unless they are merged using the command git merge <branch_name>
+it's advised not to but if you want to delete a branch, using the command git branch -d <branch_name> does the trick.
+
+git remote add origin url to link github to your workspace terminal
+git remote -v to confirm it's been linked
+git push -u origin master to push your files straight to github
