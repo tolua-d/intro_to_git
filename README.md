@@ -27,5 +27,6 @@ staging area
 it's advised not to but if you want to delete a branch, using the command git branch -d <branch_name> does the trick.
 
 git remote add origin url to link github to your workspace terminal
-git remote -v to confirm it's been linked
-git push -u origin master to push your files straight to github
+git remote -v to confirm it's been linked.
+git push -u origin master to push your files straight to github for the first time.
+git push origin master to continually push changes to github.
